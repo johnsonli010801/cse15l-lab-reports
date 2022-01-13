@@ -8,9 +8,9 @@ Hello,world!
 [link](https://johnsonli010801.github.io/cse15l-lab-reports/johnson.html)
 ![image]
 > 
-*list/n
-*list
-*list
+*one  
+*two
+*Three
 1.One
 2.Two
 3.Three
