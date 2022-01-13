@@ -8,7 +8,7 @@ Hello,world!
 [link](https://johnsonli010801.github.io/cse15l-lab-reports/johnson.html)
 ![image]
 > 
-*list\n
+*list/n
 *list
 *list
 1.One
