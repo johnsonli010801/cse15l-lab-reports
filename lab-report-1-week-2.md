@@ -9,6 +9,7 @@ ___
 # Installing VScode
 * [VScode](https://code.visualstudio.com/)
 * By clicking at the link on the top, it will guide you toward a website about downloading the VScode. You can download any versions you want from that website. Such as, macos, window, linux and so on.
+![image](VScode%20.JPG)
 
 
 ![image](Capture.JPG)
