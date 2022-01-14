@@ -28,9 +28,9 @@ ___
 # Remotely Connecting
 Since I am a window user, I should follow the following link to download the OpenSSH using the Window Setting first.
 [Step to download OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
-<
+>
 Then I have finished setting up my course special acocunt ready from the website before class.[course-special-account](https://sdacs.ucsd.edu/~icc/index.php)
-<
+>
 **After that I typed this command in the terminal of the vscode to log into the server remotely**
 ```
 $ ssh cs15lwi22aub@ieng6.ucsd.edu
