@@ -82,6 +82,6 @@ ___
 Overall, this objective goal for this lab is to get VScode set up and run a file in the remote server.
 >
 **Thank you for reading this lab report**
-
-[lab Report 1](lab-report-1-weel-2.html)
+>
+![image](https://cdn.shopify.com/s/files/1/2456/1185/products/12673940m_2b09ed7bdeadb6ca74ddb4be22e919b5a7020e38_473x473.jpg?v=1621251490)
 [lab Report 1](https://johnsonli010801.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
