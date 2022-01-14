@@ -57,11 +57,26 @@ scp WhereAmI.java cs15lwi22aub@ieng6.ucsd.edu
 This image could show the file after I finished scp the file into the remote server. Literally, scp stands for secure copy protocol which will make the file send to the 
 server safely.After sending the file into the remote server, I can begin using the `javac` and `java` command to run it in the server.
 >
-# Setting an SSH key[windowUser](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
+# Setting an SSH key
+___
+[windowUser](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
 In this step, what I typically have done is to use the given command to start setting up the SSH key. But for window user, it has more stuffs that I need to do after finishing the simple setting procedures. But those extra procedures did not work for my computer. For window user, I have tried to use the search bar on the left hand corner near the start menu to search for service. Then I change the disable of Open SSH authentication to manual. 
 ![image](unnamed.png)
 >
 Even after that, I have still gotten an error for accomplishing the last procedure of setting up the SSH key.
-![image](Capture.JPG)
+___
+#Optimizing Remote Running
+Typically, I can start calling the java file within the remote server by typing in some command like `javac+ filename.java` and `java filename`.
+![image](concole.JPG)
+From this console, the 4 results that we expected for running this java file have been demonstrated in the output console. What I have done in this procedure is to log in to
+my remote server first. Then using the command `ls` to see whether the file is still in the remote server or not. Then I typed in this following command to run the java file *WhereAmI.java*
+```
+$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
+```
+___
+Overall, this objective goal for this lab is to get VScode set up and run a file in the remote server.
+>
+**Thank you for reading this lab report**
+
 [lab Report 1](lab-report-1-weel-2.html)
 [lab Report 1](https://johnsonli010801.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
