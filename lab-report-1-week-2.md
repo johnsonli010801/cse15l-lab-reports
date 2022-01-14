@@ -8,13 +8,25 @@ scp some files to the server setting the SSH key and optimizing the remote runni
 ___
 # Installing VScode
 * [VScode](https://code.visualstudio.com/)
-* By clicking at the link on the top, it will guide you toward a website about downloading the VScode. You can download any versions you want from that website. Such as, macos, window, linux and so on.
+By clicking at the link on the top, it will guide you toward a website about downloading the VScode. You can download any versions you want from that website. Such as, macos, window, linux and so on.
 ![image](VScode.JPG)
 Here is what the website looks like. Since each different operating system will have different versions of vscode.You can click the downward arrow near the *download for window* to select the correct version for your computer.
 >
 After finishing downloading the vscode file, you can double click at it. Then it will start installing to your computer.
 ![image](demo.JPG)
 This should look similar to your computer once you finish installing and open the VScode app.
+___
+# Remotely Connecting
+For window user, you should follow the following link to download the OpenSSH using the Window Setting first.
+[Step to download OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
+<
+Then we should have our course special acocunt ready from the website[course-special-account](https://sdacs.ucsd.edu/~icc/index.php)
+<
+**command to log into the server remotely**
+```
+$ ssh cs15lwi22aub@ieng6.ucsd.edu
+```
+
 ![image](Capture.JPG)
 [lab Report 1](lab-report-1-weel-2.html)
 [lab Report 1](https://johnsonli010801.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
