@@ -36,11 +36,13 @@ Then I have finished setting up my course special acocunt ready from the website
 $ ssh cs15lwi22aub@ieng6.ucsd.edu
 ```
 ![image](ssh.JPG)
+>
 It asked me for my password when I typed in the log in command in the console. Once I finished typing the password, I clicked enter from the keyboard to confirm the password in order to log into the server. Furthermore, it asked me to answered the question*Are you sure you want to continue connecting(yes/no/[fingerprint])?* at the first time when I logged in. Simplely, I answered yes to continue to connecting to the server.(But this picture is not the screenshot of what I did on the first time.)
 ___
 # Running some command
 ![image](d1.JPG)
 ![image](d2.JPG)
+>
 For this section, I have tried some basic commands to see what would happen to the terminal. For instance, when I typed in `cd ~`
 ,nothing would happen because this command literally means changing the directory to the home directory. Since I am working at home directory, nothing would happen. For command `cd`, we will need to specify the address of which file are we gonna change directory to.
 * `ls` Moreover, I have also tried the ls command in the terminal, then it lists all the files that exist in the server within my account.
@@ -54,6 +56,7 @@ an file called WhereAmI.java has been created by me and it was sent into the rem
 scp WhereAmI.java cs15lwi22aub@ieng6.ucsd.edu
 ```
 ![image](scp file and running the file.png)
+>
 This image could show the file after I finished scp the file into the remote server. Literally, scp stands for secure copy protocol which will make the file send to the 
 server safely.After sending the file into the remote server, I can begin using the `javac` and `java` command to run it in the server.
 >
