@@ -62,7 +62,8 @@ server safely.After sending the file into the remote server, I can begin using t
 >
 # Setting an SSH key
 ___
-[windowUser](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
+[windowUserExtraProcedure](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
+>
 In this step, what I typically have done is to use the given command to start setting up the SSH key. But for window user, it has more stuffs that I need to do after finishing the simple setting procedures. But those extra procedures did not work for my computer. For window user, I have tried to use the search bar on the left hand corner near the start menu to search for service. Then I change the disable of Open SSH authentication to manual. 
 ![image](unnamed.png)
 >
