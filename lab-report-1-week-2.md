@@ -9,7 +9,7 @@ ___
 >
 **Welcome to take a look at the first lab report of Junpeng(Johnson) Li**
 >
-*In this lab report, I will demonstrate how to set up the VScode, remotely connecting to the server,
+*In this lab report, I will demonstrate how I have done to set up the VScode, remotely connecting to the server,
 scp some files to the server setting the SSH key and optimizing the remote running*
 >
 ![image](https://t3.ftcdn.net/jpg/03/67/35/72/360_F_367357209_BG07SVnnB4HSHSaMiHajfZhrZZAE859A.jpg)
