@@ -47,6 +47,15 @@ For this section, I have tried some basic commands to see what would happen to t
 * `ls -lat` This particular command will list all the files including who edited them and when they were edited.
 * `ls -a` This is the command that I tried to list all the files within the account.
 * `exit` This command will log me out from the remote server.
+___
+# Moving Files with scp
+an file called WhereAmI.java has been created by me and it was sent into the remote server by doing the following command.
+```
+scp WhereAmI.java cs15lwi22aub@ieng6.ucsd.edu
+```
+![image](scp file and running the file.png)
+This image could show the file after I finished scp the file into the remote server. Literally, scp stands for secure copy protocol which will make the file send to the 
+server safely.After sending the file into the remote server, I can begin using the `javac` and `java` command to run it in the server.
 ![image](Capture.JPG)
 [lab Report 1](lab-report-1-weel-2.html)
 [lab Report 1](https://johnsonli010801.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
