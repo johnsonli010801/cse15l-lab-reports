@@ -1,2 +1,2 @@
-![image](%20Capture.JPG)
+![image](Capture.JPG)
 
