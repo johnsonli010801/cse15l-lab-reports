@@ -70,7 +70,7 @@ In this step, what I typically have done is to use the given command to start se
 >
 Even after that, I have still gotten an error for accomplishing the last procedure of setting up the SSH key.
 ___
-#Optimizing Remote Running
+# Optimizing Remote Running
 Typically, I can start calling the java file within the remote server by typing in some command like `javac+ filename.java` and `java filename`.
 ![image](concole.JPG)
 From this console, the 4 results that we expected for running this java file have been demonstrated in the output console. What I have done in this procedure is to log in to
