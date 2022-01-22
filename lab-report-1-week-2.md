@@ -24,6 +24,7 @@ Here is what the website looks like. Since each different operating system will 
 After finishing downloading the vscode file, I double clicked at it. Then it will start installing to my computer.
 ![image](demo.JPG)
 This is what exactly looked like after I open the VScode app.
+>
 ___
 # Remotely Connecting
 Since I am a window user, I should follow the following link to download the OpenSSH using the Window Setting first.
@@ -81,6 +82,7 @@ $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 Indeed, this is a efficient way to save more times on typing the command to run the program on each line.
 In fact, if we sperate the command to run it in multiple lines which will cause the keystroke to be more. That literally will waste a lot of time on running the program.
 But instead, running them in a single time can save some time on typing in the command.
+>
 ___
 Overall, this objective goal for this lab is to get VScode set up and run a file in the remote server.
 >
