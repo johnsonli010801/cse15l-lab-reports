@@ -5,7 +5,6 @@
 **Course:CSE 15L**
 >
 **Date:01/13/2022**
-___
 >
 **Welcome to take a look at the first lab report of Junpeng(Johnson) Li**
 >
@@ -14,7 +13,6 @@ scp some files to the server setting the SSH key and optimizing the remote runni
 >
 ![image](https://t3.ftcdn.net/jpg/03/67/35/72/360_F_367357209_BG07SVnnB4HSHSaMiHajfZhrZZAE859A.jpg)
 >
-___
 # Installing VScode
 * [VScode](https://code.visualstudio.com/)
 By clicking at the link on the top, it will guide me toward a website about downloading the VScode. I can download any versions I want from that website. Such as, macos, window, linux and so on.
@@ -25,7 +23,6 @@ After finishing downloading the vscode file, I double clicked at it. Then it wil
 ![image](demo.JPG)
 This is what exactly looked like after I open the VScode app.
 >
-___
 # Remotely Connecting
 Since I am a window user, I should follow the following link to download the OpenSSH using the Window Setting first.
 [Step to download OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
@@ -39,7 +36,6 @@ $ ssh cs15lwi22aub@ieng6.ucsd.edu
 ![image](ssh.JPG)
 >
 It asked me for my password when I typed in the log in command in the console. Once I finished typing the password, I clicked enter from the keyboard to confirm the password in order to log into the server. Furthermore, it asked me to answered the question*Are you sure you want to continue connecting(yes/no/[fingerprint])?* at the first time when I logged in. Simplely, I answered yes to continue to connecting to the server.(But this picture is not the screenshot of what I did on the first time.)
-___
 # Running some command
 ![image](d1.JPG)
 ![image](d2.JPG)
@@ -50,7 +46,6 @@ For this section, I have tried some basic commands to see what would happen to t
 * `ls -lat` This particular command will list all the files including who edited them and when they were edited.
 * `ls -a` This is the command that I tried to list all the files within the account.
 * `exit` This command will log me out from the remote server.
-___
 # Moving Files with scp
 an file called WhereAmI.java has been created by me and it was sent into the remote server by doing the following command.
 ```
@@ -62,7 +57,6 @@ This image could show the file after I finished scp the file into the remote ser
 server safely.After sending the file into the remote server, I can begin using the `javac` and `java` command to run it in the server.
 >
 # Setting an SSH key
-___
 [windowUserExtraProcedure](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
 >
 In this step, what I typically have done is to use the given command to start setting up the SSH key. But for window user, it has more stuffs that I need to do after finishing the simple setting procedures. But those extra procedures did not work for my computer. For window user, I have tried to use the search bar on the left hand corner near the start menu to search for service. Then I change the disable of Open SSH authentication to manual. 
@@ -70,7 +64,6 @@ In this step, what I typically have done is to use the given command to start se
 ![image](unnamed.png)
 >
 Even after that, I have still gotten an error for accomplishing the last procedure of setting up the SSH key.
-___
 # Optimizing Remote Running
 Typically, I can start calling the java file within the remote server by typing in some command like `javac+ filename.java` and `java filename`.
 ![image](concole.JPG)
@@ -83,7 +76,6 @@ Indeed, this is a efficient way to save more times on typing the command to run 
 In fact, if we sperate the command to run it in multiple lines which will cause the keystroke to be more. That literally will waste a lot of time on running the program.
 But instead, running them in a single time can save some time on typing in the command.
 >
-___
 Overall, this objective goal for this lab is to get VScode set up and run a file in the remote server.
 >
 **Thank you for reading this lab report**
