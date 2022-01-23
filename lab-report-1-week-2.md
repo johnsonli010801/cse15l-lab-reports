@@ -80,6 +80,7 @@ For instance, to redo the scp command we can literally do the up-arrow twice the
 
 Then we can do something by clicking at the up arrow to copy the command to run the java file remotely.
 The total keystroke we used are only 5.
+>
 ![image](s.png)
 *In fact, our group did not finish up the last question about the total time of counting keystroke due to the time limitation of lab*.
 >
