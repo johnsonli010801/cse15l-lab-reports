@@ -82,6 +82,7 @@ Then we can do something by clicking at the up arrow to copy the command to run 
 The total keystroke we used are only 5.
 >
 ![image](s.png)
+>
 *In fact, our group did not finish up the last question about the total time of counting keystroke due to the time limitation of lab*.
 >
 Overall, this objective goal for this lab is to get VScode set up and run a file in the remote server.
