@@ -76,6 +76,8 @@ Indeed, this is a efficient way to save more times on typing the command to run 
 In fact, if we sperate the command to run it in multiple lines which will cause the keystroke to be more. That literally will waste a lot of time on running the program.
 But instead, running them in a single time can save some time on typing in the command.
 >
+What's more, we can use the up-arrow from the keyboard to copy the last command we have used in order to save some time.
+>
 Overall, this objective goal for this lab is to get VScode set up and run a file in the remote server.
 >
 **Thank you for reading this lab report**
