@@ -77,6 +77,7 @@ In fact, if we sperate the command to run it in multiple lines which will cause 
 But instead, running them in a single time can save some time on typing in the command.
 >
 What's more, we can use the up-arrow from the keyboard to copy the last command we have used in order to save some time.
+In fact, our group did not finish up the last question about the total time of counting keystroke due to the time limitation.
 >
 Overall, this objective goal for this lab is to get VScode set up and run a file in the remote server.
 >
